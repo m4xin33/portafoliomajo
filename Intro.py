@@ -37,12 +37,12 @@ with col1:
  st.write(f"enlace: [Enlace]({url})")
 
 with col2: 
- st.subheader("Conversión de voz a texto")
- image = Image.open('OIG8.jpg')
+ st.subheader("emociones")
+ image = Image.open('cuartafoto.jpg')
  st.image(image, width=200)
- st.write("En la siguiente veremos una aplicación que usa la conversión de voz a texto.") 
- url = "https://traductorw.streamlit.app/"
- st.write(f"Voz a texto: [Enlace]({url})")
+ st.write("interfaz para que niños pequeños vayan aprendiendo como identificar sus emociones y que hacer en cada caso.") 
+ url = "https://sentimentaprofe-vsuq47r9wypxomxchduzy3.streamlit.app/"
+ st.write(f"enlace: [Enlace]({url})")
 
  st.subheader("Análisis de Datos")
  image = Image.open('data_analisis.png')
