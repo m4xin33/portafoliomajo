@@ -20,14 +20,14 @@ with col1:
  st.image(image, width=190)
  st.write("toma una foto y la app reconoce objetos") 
  url = "https://yolov5profe-pvibkrfl3nvpzax9yostns.streamlit.app/"
- st.write(f"Texto a voz: [Enlace]({url})")
+ st.write(f"enlace: [Enlace]({url})")
 
- st.subheader("Reconocimiento de Objetos")
+ st.subheader("primera prueba")
  image = Image.open('txt_to_audio.png')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos como se detectan objetos en Imágenes.") 
- url = "https://yolov5cmc.streamlit.app/"
- st.write(f"YOLO: [Enlace]({url})")
+ st.write("primera prueba en streamlit") 
+ url = "https://wordcloudprofe-wtjxd8rnzefwmccgipsaz5.streamlit.app/"
+ st.write(f"enlace: [Enlace]({url})")
 
  st.subheader("Entrenando Modelos")
  image = Image.open('OIG5.jpg')
