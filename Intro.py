@@ -30,7 +30,7 @@ with col1:
  st.write(f"enlace: [Enlace]({url})")
 
  st.subheader("Buscador de Cuentos e Historias")
- image = Image.open('OIG5.jpg')
+ image = Image.open('tercerafoto.jpg')
  st.image(image, width=200)
  st.write("Esta herramienta analiza un conjunto de cuentos o frases breves y encuentra la historia que mejor responde a tu pregunta.") 
  url = "https://tfidfprofe-gnvdiqmhpnsrj5sdhw5ifd.streamlit.app/"
