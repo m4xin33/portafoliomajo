@@ -61,7 +61,7 @@ with col2:
 
 with col3: 
  st.subheader("Escáner Inteligente de Texto (OCR)")
- image = Image.open('Chat_pdf.png')
+ image = Image.open('septimafoto.jpg')
  st.image(image, width=190)
  st.write("Captura una imagen o documento para extraer su contenido en texto automáticamente.") 
  url = "https://imagenrecogmj-bqibrtptajf5o7xkm6spfm.streamlit.app/"
