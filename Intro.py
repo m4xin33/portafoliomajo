@@ -51,12 +51,12 @@ with col2:
  url = "https://imm1prf-mgsgcrtdgkqgrqggmzmi3k.streamlit.app/"
  st.write(f"enlace: [Enlace]({url})")
 
- st.subheader("Trasnscriptor Audio y Video")
- image = Image.open('OIG3.jpg')
+ st.subheader("segunda prueba")
+ image = Image.open('sextafoto.jpg')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos como realizamos transcripciones de audio/video.") 
- url = "https://transcript-whisper.streamlit.app/"
- st.write(f"Transcriptor: [Enlace]({url})")
+ st.write("segunda prueba subiendo una app a srteamlit") 
+ url = "https://clase6vozaudio-pgcremuqmkzschba63zxqe.streamlit.app/"
+ st.write(f"enlace: [Enlace]({url})")
 
 
 with col3: 
