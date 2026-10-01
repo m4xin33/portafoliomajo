@@ -67,12 +67,12 @@ with col3:
  url = "https://imagenrecogmj-bqibrtptajf5o7xkm6spfm.streamlit.app/"
  st.write(f"enlace: [Enlace]({url})")
 
- st.subheader("Análisis de Imagen")
+ st.subheader("Lector OCR & Traductor de Voz")
  image = Image.open('OIG4.jpg')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos la capacidad de análisis en Imágenes.") 
- url = "https://vision2-gpt4o.streamlit.app/"
- st.write(f"Vision: [Enlace]({url})")
+ st.write("Extrae texto de una imagen (cámara o archivo), tradúcelo y escúchalo en audio.") 
+ url = "https://ocr-moremj-mz2heyh3kieiu5bk527zbt.streamlit.app/"
+ st.write(f"enlace: [Enlace]({url})")
  
  st.subheader("Sistema Ciberfísico")
  image = Image.open('OIG6.jpg')
