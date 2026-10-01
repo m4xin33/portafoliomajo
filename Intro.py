@@ -44,12 +44,12 @@ with col2:
  url = "https://sentimentaprofe-vsuq47r9wypxomxchduzy3.streamlit.app/"
  st.write(f"enlace: [Enlace]({url})")
 
- st.subheader("Análisis de Datos")
- image = Image.open('data_analisis.png')
+ st.subheader("asistente de audio")
+ image = Image.open('quintafoto.jpg')
  st.image(image, width=190)
- st.write("En la siguiente enlace veremos como se pueden analizar datos usando agentes.") 
- url = "https://dataagente.streamlit.app/"
- st.write(f"Datos: [Enlace]({url})")
+ st.write("Escribe el texto y reproducelo como audio") 
+ url = "https://imm1prf-mgsgcrtdgkqgrqggmzmi3k.streamlit.app/"
+ st.write(f"enlace: [Enlace]({url})")
 
  st.subheader("Trasnscriptor Audio y Video")
  image = Image.open('OIG3.jpg')
