@@ -4,6 +4,12 @@ st.title("Portafolio Interfaces Multimodales")
 
 with st.sidebar:
   st.subheader("Maria José Melo Ceron")
+  parrafo = (
+    "La inteligencia artificial permite mejorar la toma de decisiones con el uso de datos, "
+    "automatizar tareas rutinarias y proporcionar análisis avanzados en tiempo real, lo que "
+    "resulta en una mayor eficiencia y precisión en diversos campos."
+  )
+  st.write(parrafo)
 
 url_ia="https://sites.google.com/view/aplicacionesdeia/inicio"
 st.subheader("en cada enlace estan las paginas modificadas a lo largo del semestre hasta ahora: [Enlace]({url_ia})")
