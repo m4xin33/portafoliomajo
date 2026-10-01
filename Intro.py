@@ -18,6 +18,7 @@ with col1:
  st.subheader("detección de objetos en imagenes")
  image = Image.open('primerafoto.png')
  st.image(image, width=190)
+ st.write("toma una foto y la app reconoce objetos") 
  url = "https://yolov5profe-pvibkrfl3nvpzax9yostns.streamlit.app/"
  st.write(f"Texto a voz: [Enlace]({url})")
 
