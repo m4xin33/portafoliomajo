@@ -6,8 +6,7 @@ with st.sidebar:
   st.subheader("Maria José Melo Ceron")
 
 url_ia="https://sites.google.com/view/aplicacionesdeia/inicio"
-st.subheader("En el siguiente enlace puedes encontrar páginas y ejercicios prácticos")
-st.write(f"Enlace para páginas y ejercicios: [Enlace]({url_ia})")
+st.subheader("en cada enlace estan las paginas modificadas a lo largo del semestre hasta ahora: [Enlace]({url_ia})")
 col1, col2, col3 = st.columns(3)
 
 with col1:
