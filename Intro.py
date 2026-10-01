@@ -23,7 +23,7 @@ with col1:
  st.write(f"enlace: [Enlace]({url})")
 
  st.subheader("primera prueba")
- image = Image.open('txt_to_audio.png')
+ image = Image.open('segundafoto.png')
  st.image(image, width=200)
  st.write("primera prueba en streamlit") 
  url = "https://wordcloudprofe-wtjxd8rnzefwmccgipsaz5.streamlit.app/"
