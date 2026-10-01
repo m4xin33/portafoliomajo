@@ -29,12 +29,12 @@ with col1:
  url = "https://wordcloudprofe-wtjxd8rnzefwmccgipsaz5.streamlit.app/"
  st.write(f"enlace: [Enlace]({url})")
 
- st.subheader("Entrenando Modelos")
+ st.subheader("Buscador de Cuentos e Historias")
  image = Image.open('OIG5.jpg')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos como puedes usar tu modelo entrenado.") 
- url = "https://xn3pg24ztuv6fdiqon8qn3.streamlit.app/"
- st.write(f"YOLO: [Enlace]({url})")
+ st.write("Esta herramienta analiza un conjunto de cuentos o frases breves y encuentra la historia que mejor responde a tu pregunta.") 
+ url = "https://tfidfprofe-gnvdiqmhpnsrj5sdhw5ifd.streamlit.app/"
+ st.write(f"enlace: [Enlace]({url})")
 
 with col2: 
  st.subheader("Conversión de voz a texto")
