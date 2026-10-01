@@ -16,7 +16,7 @@ col1, col2, col3 = st.columns(3)
 with col1:
  
  st.subheader("detección de objetos en imagenes")
- image = Image.open('primerafoto.png')
+ image = Image.open('primerafoto.jpg')
  st.image(image, width=190)
  st.write("toma una foto y la app reconoce objetos") 
  url = "https://yolov5profe-pvibkrfl3nvpzax9yostns.streamlit.app/"
