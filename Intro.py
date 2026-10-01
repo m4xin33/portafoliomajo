@@ -60,12 +60,12 @@ with col2:
 
 
 with col3: 
- st.subheader("Generación en Contexto")
+ st.subheader("Escáner Inteligente de Texto (OCR)")
  image = Image.open('Chat_pdf.png')
  st.image(image, width=190)
- st.write("En la siguiente veremos una aplicación que usa RAG a partir de un documento (PDF).") 
- url = "https://chatpdf-cc.streamlit.app/"
- st.write(f"RAG: [Enlace]({url})")
+ st.write("Captura una imagen o documento para extraer su contenido en texto automáticamente.") 
+ url = "https://imagenrecogmj-bqibrtptajf5o7xkm6spfm.streamlit.app/"
+ st.write(f"enlace: [Enlace]({url})")
 
  st.subheader("Análisis de Imagen")
  image = Image.open('OIG4.jpg')
