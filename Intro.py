@@ -68,7 +68,7 @@ with col3:
  st.write(f"enlace: [Enlace]({url})")
 
  st.subheader("Lector OCR & Traductor de Voz")
- image = Image.open('OIG4.jpg')
+ image = Image.open('octavafoto.jpg')
  st.image(image, width=200)
  st.write("Extrae texto de una imagen (cámara o archivo), tradúcelo y escúchalo en audio.") 
  url = "https://ocr-moremj-mz2heyh3kieiu5bk527zbt.streamlit.app/"
