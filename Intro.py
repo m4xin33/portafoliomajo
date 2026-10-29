@@ -11,7 +11,7 @@ with st.sidebar:
 
 url_ia="https://sites.google.com/view/aplicacionesdeia/inicio"
 st.subheader("en cada enlace estan las paginas modificadas a lo largo del semestre hasta ahora: [Enlace]({url_ia})")
-col1, col2, col3 = st.columns(3)
+col1, col2, col3 = st.columns(6)
 
 with col1:
  
