@@ -83,7 +83,7 @@ with col3:
 
 with col4:
   st.subheader("Chat Pdf")
- image = Image.open('uno,jpg')
+ image = Image.open('uno.jpg')
  st.image(image, width=200)
  st.write("Es una plataforma interactiva que permite subir archivos PDF para analizarlos, chatear con su contenido y extraer información o resúmenes mediante inteligencia artificial.") 
  url = "https://chatpdfport2-xkgdb9qpj6vg87bfan3pa9.streamlit.app/"
