@@ -3,9 +3,25 @@ import streamlit as st
 
 st.title("Portafolio Interfaces Multimodales")
 
+# --- ESTILO CSS PARA UNIFICAR EL TAMAÑO DE LAS TARJETAS ---
+st.markdown(
+    """
+    <style>
+    [data-testid="stVerticalBlock"] > [data-testid="stContainer"] {
+        height: 560px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        overflow-y: auto;
+    }
+    </style>
+""",
+    unsafe_allow_html=True,
+)
+
 with st.sidebar:
     st.subheader("Maria José Melo Ceron")
-    parrafo = "portafolio completo"
+    parrafo = "portafolio 1"
     st.write(parrafo)
 
 url_ia = "https://sites.google.com/view/aplicacionesdeia/inicio"
@@ -13,8 +29,8 @@ st.subheader(
     f"en cada enlace estan las paginas modificadas a lo largo del semestre hasta ahora: [Enlace]({url_ia})"
 )
 
-# Definimos 3 columnas para que las tarjetas tengan buen ancho y no se apretujen
-col1, col2, col3 = st.columns(3)
+# Usamos 2 columnas para que sean más anchas y espaciosas
+col1, col2 = st.columns(2)
 
 with col1:
     with st.container(border=True):
@@ -69,7 +85,6 @@ with col1:
         url = "https://clase6vozaudio-pgcremuqmkzschba63zxqe.streamlit.app/"
         st.write(f"enlace: [Enlace]({url})")
 
-with col2:
     with st.container(border=True):
         st.subheader("Escáner Inteligente de Texto (OCR)")
         image = Image.open("septimafoto.jpg")
@@ -90,6 +105,7 @@ with col2:
         url = "https://ocr-moremj-mz2heyh3kieiu5bk527zbt.streamlit.app/"
         st.write(f"enlace: [Enlace]({url})")
 
+with col2:
     with st.container(border=True):
         st.subheader("Sistema Ciberfísico")
         image = Image.open("fotoultima.jpg")
@@ -120,7 +136,6 @@ with col2:
         url = "https://visionappport2-xhkwdzxgm7vxvluqsxv8ed.streamlit.app/"
         st.write(f"Vision: [Enlace]({url})")
 
-with col3:
     with st.container(border=True):
         st.subheader("Tablero")
         image = Image.open("tres.jpg")
