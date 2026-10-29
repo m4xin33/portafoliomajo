@@ -5,14 +5,16 @@ st.title("Portafolio Interfaces Multimodales")
 
 with st.sidebar:
     st.subheader("Maria José Melo Ceron")
-    parrafo = "portafolio 1"
+    parrafo = "portafolio completo"
     st.write(parrafo)
 
 url_ia = "https://sites.google.com/view/aplicacionesdeia/inicio"
 st.subheader(
     f"en cada enlace estan las paginas modificadas a lo largo del semestre hasta ahora: [Enlace]({url_ia})"
 )
-col1, col2, col3, col4, col5, col6 = st.columns(6)
+
+# Definimos 3 columnas para que las tarjetas tengan buen ancho y no se apretujen
+col1, col2, col3 = st.columns(3)
 
 with col1:
     with st.container(border=True):
@@ -41,7 +43,6 @@ with col1:
         url = "https://tfidfprofe-gnvdiqmhpnsrj5sdhw5ifd.streamlit.app/"
         st.write(f"enlace: [Enlace]({url})")
 
-with col2:
     with st.container(border=True):
         st.subheader("emociones")
         image = Image.open("cuartafoto.jpg")
@@ -68,7 +69,7 @@ with col2:
         url = "https://clase6vozaudio-pgcremuqmkzschba63zxqe.streamlit.app/"
         st.write(f"enlace: [Enlace]({url})")
 
-with col3:
+with col2:
     with st.container(border=True):
         st.subheader("Escáner Inteligente de Texto (OCR)")
         image = Image.open("septimafoto.jpg")
@@ -99,7 +100,6 @@ with col3:
         url = "https://vision2-gpt4o.streamlit.app/"
         st.write(f"Vision: [Enlace]({url})")
 
-with col4:
     with st.container(border=True):
         st.subheader("Chat Pdf")
         image = Image.open("uno.jpg")
@@ -120,6 +120,7 @@ with col4:
         url = "https://visionappport2-xhkwdzxgm7vxvluqsxv8ed.streamlit.app/"
         st.write(f"Vision: [Enlace]({url})")
 
+with col3:
     with st.container(border=True):
         st.subheader("Tablero")
         image = Image.open("tres.jpg")
@@ -130,7 +131,6 @@ with col4:
         url = "https://tableroclase12-6fqvhz8freadge5geehewh.streamlit.app/"
         st.write(f"Vision: [Enlace]({url})")
 
-with col5:
     with st.container(border=True):
         st.subheader("Clasificador de Dígitos MNIST con Inteligencia Artificial")
         image = Image.open("cuatro.jpg")
@@ -161,7 +161,6 @@ with col5:
         url = "https://sendcmqttprofe13-faqbvmbbfgzf5kpqd7mby5.streamlit.app/"
         st.write(f"Vision: [Enlace]({url})")
 
-with col6:
     with st.container(border=True):
         st.subheader("Panel de Control por Voz Multimodal")
         image = Image.open("siete.jpg")
@@ -171,5 +170,3 @@ with col6:
         )
         url = "https://ctrlvoiceport2-pnkdgmn7ce36pawq86hc4k.streamlit.app/"
         st.write(f"Vision: [Enlace]({url})")
-
-
