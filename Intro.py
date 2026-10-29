@@ -75,10 +75,67 @@ with col3:
  st.write(f"enlace: [Enlace]({url})")
  
  st.subheader("Sistema Ciberfísico")
- image = Image.open('OIG6.jpg')
+ image = Image.open('fotoultima.jpg')
  st.image(image, width=200)
  st.write("En la siguiente enlace veremos la capacidad de interacción con el mundo físico.") 
  url = "https://vision2-gpt4o.streamlit.app/"
  st.write(f"Vision: [Enlace]({url})")
+
+with col4:
+  st.subheader("Chat Pdf")
+ image = Image.open('')
+ st.image(image, width=200)
+ st.write("Es una plataforma interactiva que permite subir archivos PDF para analizarlos, chatear con su contenido y extraer información o resúmenes mediante inteligencia artificial.") 
+ url = "https://chatpdfport2-xkgdb9qpj6vg87bfan3pa9.streamlit.app/"
+ st.write(f"Vision: [Enlace]({url})")
+
+ st.subheader("Vision app")
+ image = Image.open('')
+ st.image(image, width=200)
+ st.write("Es una herramienta web interactiva para cargar imágenes, proporcionar contexto y analizarlas automáticamente utilizando inteligencia artificial.") 
+ url = "https://visionappport2-xhkwdzxgm7vxvluqsxv8ed.streamlit.app/"
+ st.write(f"Vision: [Enlace]({url})")
+
+ st.subheader("Tablero")
+ image = Image.open('')
+ st.image(image, width=200)
+ st.write("Es una plataforma interactiva que permite visualizar y consultar tableros de datos o información estructurada para el análisis rápido de métricas.") 
+ url = "https://tableroclase12-6fqvhz8freadge5geehewh.streamlit.app/"
+ st.write(f"Vision: [Enlace]({url})")
+
+with col5:
+
+ st.subheader("Clasificador de Dígitos MNIST con Inteligencia Artificial")
+ image = Image.open('')
+ st.image(image, width=200)
+ st.write("Es una herramienta web interactiva diseñada para reconocer y clasificar dígitos escritos a mano mediante modelos de aprendizaje automático.") 
+ url = "https://mnistpredprofe12-xs4kjswwbs3wgvqyxsboqh.streamlit.app/"
+ st.write(f"Vision: [Enlace]({url})")
+
+ st.subheader("Reconocimiento de Dibujos con Inteligencia Artificial")
+ image = Image.open('')
+ st.image(image, width=200)
+ st.write("Es una herramienta web interactiva que permite dibujar trazos a mano alzada para que un modelo de aprendizaje automático los reconozca y clasifique en tiempo real.") 
+ url = "https://drawrecogprofe12-bm6fzftarnag8o7drbdlzu.streamlit.app/"
+ st.write(f"Vision: [Enlace]({url})")
+
+ st.subheader("Transmisor de Comandos por MQTT")
+ image = Image.open('')
+ st.image(image, width=200)
+ st.write("Es una herramienta web interactiva diseñada para enviar mensajes y comandos de control a través de un protocolo de comunicación MQTT en tiempo real.") 
+ url = "https://sendcmqttprofe13-faqbvmbbfgzf5kpqd7mby5.streamlit.app/"
+ st.write(f"Vision: [Enlace]({url})")
+
+with col6:
+
+ st.subheader("Panel de Control por Voz Multimodal")
+ image = Image.open('')
+ st.image(image, width=200)
+ st.write("Es una herramienta web interactiva que permite capturar comandos de voz mediante el navegador para transmitirlos en tiempo real a través de un protocolo de comunicación MQTT.") 
+ url = "https://ctrlvoiceport2-pnkdgmn7ce36pawq86hc4k.streamlit.app/"
+ st.write(f"Vision: [Enlace]({url})")
+
+
+
 
 
