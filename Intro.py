@@ -82,7 +82,7 @@ with col3:
  st.write(f"Vision: [Enlace]({url})")
 
 with col4:
-  st.subheader("Chat Pdf")
+ st.subheader("Chat Pdf")
  image = Image.open('uno.jpg')
  st.image(image, width=200)
  st.write("Es una plataforma interactiva que permite subir archivos PDF para analizarlos, chatear con su contenido y extraer información o resúmenes mediante inteligencia artificial.") 
