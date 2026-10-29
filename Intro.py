@@ -21,7 +21,7 @@ st.markdown(
 
 with st.sidebar:
     st.subheader("Maria José Melo Ceron")
-    parrafo = "portafolio 1"
+    parrafo = "portafolio completo"
     st.write(parrafo)
 
 url_ia = "https://sites.google.com/view/aplicacionesdeia/inicio"
